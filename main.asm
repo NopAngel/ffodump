@@ -9,10 +9,10 @@ section .data
     clr_green   db 0x1B, "[32m"
     clr_gray    db 0x1B, "[90m"
     
-    msg_ver     db "fofdump v1.0", 0x0A
+    msg_ver     db "ffodump v1.0", 0x0A
     len_ver     equ $ - msg_ver
     arg_ver     db "--version", 0
-    msg_usage   db "Use: ./fofdump <FILE>", 0x0A
+    msg_usage   db "Use: ./ffodump <FILE>", 0x0A
     len_usage   equ $ - msg_usage
 
 section .bss
