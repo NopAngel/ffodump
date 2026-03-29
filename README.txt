@@ -1,4 +1,4 @@
-                    FoFDumP
+                    FFODumP
 
              Fucking Fast Object DUMP
 
